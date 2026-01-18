@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@ui/*": ["./src/components/ui/*"],
+      "@features/*": ["./src/components/features/*"],
+      "@landing/*": ["./src/components/features/landing/*"],
+      "@checkout/*": ["./src/checkout/*"],
+      "@checkout-layout/*": ["./src/checkout/layout/*"]
+    }
+  }
+}

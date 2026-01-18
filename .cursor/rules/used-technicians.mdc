@@ -1,0 +1,17 @@
+---
+description: Main Technology Stack
+globs:
+alwaysApply: true
+---
+
+### Main Stack
+
+- **Framework**: React 19.1.1 with TypeScript 5.8.3
+- **Build Tool**: Vite 7.1.2
+- **Styling**: TailwindCSS 4.1.12
+- **Routing**: React Router DOM 7.8.0
+- **State Management**: TanStack Query (React Query) 5.85.5
+- **Forms**: React Hook Form 7.62.0 + Zod 4.0.17
+- **UI Components**: Radix UI + shadcn/ui
+- **Animations**: Framer Motion 12.23.12
+- **HTTP Client**: Axios 1.11.0

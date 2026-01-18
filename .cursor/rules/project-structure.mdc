@@ -1,0 +1,47 @@
+---
+description: Project structure
+globs:
+alwaysApply: true
+---
+
+src/
+├─ api/ # API services (Axios wrappers per entity)
+│ ├─ domain.ts # domains endpoints
+│ ├─ integration.ts # integrations endpoints
+│ ├─ offer.ts # offers endpoints
+│ ├─ orderbump.ts # order-bumps endpoints
+│ ├─ pixel.ts # pixels endpoints
+│ ├─ product.ts # products endpoints
+│ ├─ shipping.ts # shippings endpoints
+│ └─ user.ts # auth/session/user endpoints
+├─ components/
+│ ├─ animations/ # motion primitives
+│ ├─ authguard-provider.tsx# route guard provider
+│ ├─ features/ # **feature modules** (UI + hooks + small utils)
+│ │ ├─ access/ # login / register / OTP, etc.
+│ │ ├─ dashboard/ # charts + KPIs
+│ │ ├─ domains/ # domain mgmt
+│ │ ├─ integrations/ # payment providers, webhooks
+│ │ ├─ landing/ # marketing/hero
+│ │ ├─ products/ # products CRUD, offers, bumps, pixels
+│ │ └─ shipping/ # shipping methods, costs
+│ ├─ query-provider.tsx # React Query provider
+│ ├─ theme-provider.tsx # Theme provider (shadcn/ui)
+│ ├─ ui/ # base UI components (shadcn/ui)
+│ └─ widgets/ # reusable composites (tables, cards, modals)
+├─ constants/ # app-wide constants, enums
+├─ hooks/ # shared hooks (non-feature-specific)
+├─ layouts/ # app layouts / shells
+├─ lib/ # utils (axios instance, storage, formatters)
+├─ pages/ # routed pages (if using RR DOM file routing)
+├─ types/ # global TS types (DTOs, view models)
+└─ validators/ # Zod schemas shared across features
+
+<!-- Contribution Workflow -->
+
+Create types in `src/types/`
+Implement API in `src/api/`
+Create hooks in `src/hooks/`
+Develop components in `src/components/features/`
+Add validators in `src/validators/`
+Create pages in `src/pages/`

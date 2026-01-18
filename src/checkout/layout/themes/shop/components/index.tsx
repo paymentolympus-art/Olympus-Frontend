@@ -1,0 +1,11 @@
+export { Header } from "./Header";
+export { DeliverySection } from "./DeliverySection";
+export { CpfSection } from "./CpfSection";
+export { ProductSection } from "./ProductSection";
+export { DiscountSection } from "./DiscountSection";
+export { OrderSummary } from "./OrderSummary";
+export { PaymentMethods } from "./PaymentMethods";
+export { TermsSection } from "./TermsSection";
+export { CheckoutButton } from "./CheckoutButton";
+export { AddressModal } from "./AddressModal";
+export { CpfModal } from "./CpfModal";

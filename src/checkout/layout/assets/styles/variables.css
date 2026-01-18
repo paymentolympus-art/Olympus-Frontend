@@ -1,0 +1,125 @@
+/* Variáveis CSS para o sistema de design */
+
+:root {
+  /* Cores do tema Simple */
+  --color-simple-primary: #22c55e;
+  --color-simple-secondary: #16a34a;
+  --color-simple-success: #4caf50;
+  --color-simple-warning: #ffb74d;
+  --color-simple-error: #dc2626;
+  --color-simple-background: #f5f5f5;
+  --color-simple-surface: #ffffff;
+  --color-simple-text: #333333;
+  --color-simple-text-secondary: #666666;
+
+  /* Cores do tema Shop */
+  --color-shop-primary: #e84358;
+  --color-shop-secondary: #4ecdc4;
+  --color-shop-success: #4caf50;
+  --color-shop-warning: #ffb74d;
+  --color-shop-error: #dc2626;
+  --color-shop-background: #ffffff;
+  --color-shop-surface: #f8f9fa;
+  --color-shop-text: #1c1e21;
+  --color-shop-text-secondary: #626262;
+
+  /* Cores do tema Danone */
+  --color-danone-primary: #22c55e;
+  --color-danone-secondary: #16a34a;
+  --color-danone-success: #4caf50;
+  --color-danone-warning: #ffb74d;
+  --color-danone-error: #dc2626;
+  --color-danone-background: #f5f5f5;
+  --color-danone-surface: #ffffff;
+  --color-danone-text: #141414;
+  --color-danone-text-secondary: #454545;
+
+  /* Tipografia */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+
+  /* Espaçamento */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 24px;
+  --spacing-3xl: 32px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 50%;
+
+  /* Breakpoints */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* Duração de animações */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+
+  /* Z-index */
+  --z-modal: 1000;
+  --z-popup: 2000;
+  --z-loading: 3000;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* Transições */
+  --transition-fast: all var(--duration-fast) ease;
+  --transition-normal: all var(--duration-normal) ease;
+  --transition-slow: all var(--duration-slow) ease;
+}
+
+/* Classes de tema */
+.theme-simple {
+  --color-primary: var(--color-simple-primary);
+  --color-secondary: var(--color-simple-secondary);
+  --color-success: var(--color-simple-success);
+  --color-warning: var(--color-simple-warning);
+  --color-error: var(--color-simple-error);
+  --color-background: var(--color-simple-background);
+  --color-surface: var(--color-simple-surface);
+  --color-text: var(--color-simple-text);
+  --color-text-secondary: var(--color-simple-text-secondary);
+}
+
+.theme-shop {
+  --color-primary: var(--color-shop-primary);
+  --color-secondary: var(--color-shop-secondary);
+  --color-success: var(--color-shop-success);
+  --color-warning: var(--color-shop-warning);
+  --color-error: var(--color-shop-error);
+  --color-background: var(--color-shop-background);
+  --color-surface: var(--color-shop-surface);
+  --color-text: var(--color-shop-text);
+  --color-text-secondary: var(--color-shop-text-secondary);
+}
+
+.theme-danone {
+  --color-primary: var(--color-danone-primary);
+  --color-secondary: var(--color-danone-secondary);
+  --color-success: var(--color-danone-success);
+  --color-warning: var(--color-danone-warning);
+  --color-error: var(--color-danone-error);
+  --color-background: var(--color-danone-background);
+  --color-surface: var(--color-danone-surface);
+  --color-text: var(--color-danone-text);
+  --color-text-secondary: var(--color-danone-text-secondary);
+}

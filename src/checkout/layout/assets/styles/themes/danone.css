@@ -1,0 +1,441 @@
+/* Estilos específicos para o tema Donate */
+
+.theme-danone {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-lg);
+}
+
+.danone-content {
+  width: 100%;
+  max-width: 480px;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Header */
+.danone-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.danone-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.danone-logo-img {
+  width: 130px;
+  height: auto;
+  border-radius: var(--radius-md);
+  object-fit: contain;
+}
+
+/* Título e Subtítulo */
+.danone-title {
+  font-size: clamp(20px, 5vw, 24px);
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: center;
+  margin: 0 0 var(--spacing-sm) 0;
+  line-height: 1.3;
+}
+
+.danone-subtitle {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.4;
+}
+
+/* Input de Valor */
+.danone-value-input {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.danone-currency-prefix {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  font-weight: 500;
+  min-width: 60px;
+  justify-content: center;
+}
+
+.danone-value-field {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: 17px;
+  outline: none;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  transition: var(--transition-normal);
+}
+
+.danone-value-field:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(var(--color-primary), 0.1);
+}
+
+.danone-value-field::placeholder {
+  color: var(--color-text-secondary);
+}
+
+/* Mensagem de Erro */
+.danone-error-message {
+  color: var(--color-error);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  padding: var(--spacing-sm);
+  background-color: rgba(var(--color-error), 0.1);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(var(--color-error), 0.2);
+}
+
+/* Seção de Pagamento */
+.danone-section-title {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+
+.danone-payment-methods {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+  justify-content: center;
+}
+
+.danone-payment-option {
+  border: 1px solid #ddd;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  cursor: pointer;
+  transition: var(--transition-normal);
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+.danone-payment-option:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.danone-payment-option--pix {
+  color: white;
+  font-weight: 500;
+}
+
+.danone-radio-button {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ddd;
+  border-radius: var(--radius-full);
+  display: inline-block;
+  position: relative;
+  transition: var(--transition-normal);
+}
+
+.danone-payment-option--pix .danone-radio-button {
+  border-color: white;
+}
+
+.danone-payment-option--pix .danone-radio-button::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: var(--radius-full);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Modal de Remarketing */
+.danone-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-modal);
+  padding: var(--spacing-lg);
+}
+
+.danone-modal-content {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Resumo da Doação */
+.danone-summary {
+  margin-bottom: var(--spacing-xl);
+  background-color: #f8f9fa;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+}
+
+.danone-summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+}
+
+.danone-summary-item:last-child {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid #e0e0e0;
+}
+
+.danone-summary-label {
+  color: var(--color-text-secondary);
+}
+
+.danone-summary-value {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.danone-divider {
+  height: 1px;
+  background-color: #eee;
+  margin: var(--spacing-md) 0;
+}
+
+/* Badge de Proteção */
+.danone-protection-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.danone-protection-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.danone-protection-text {
+  font-size: var(--font-size-sm);
+  color: #0369a1;
+  line-height: 1.4;
+}
+
+.danone-protection-text strong {
+  color: #0c4a6e;
+}
+
+/* Botão de Contribuição */
+.danone-contribute-button {
+  width: 100%;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+.danone-contribute-button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.danone-contribute-button:active {
+  transform: translateY(0);
+}
+
+.danone-contribute-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.8;
+  transform: none;
+}
+
+.danone-contribute-button:disabled:hover {
+  transform: none;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .theme-danone {
+    padding: var(--spacing-md);
+  }
+  
+  .danone-content {
+    padding: var(--spacing-lg);
+  }
+  
+  .danone-logo-img {
+    width: 100px;
+  }
+  
+  .danone-title {
+    font-size: 20px;
+  }
+  
+  .danone-value-input {
+    flex-direction: column;
+  }
+  
+  .danone-currency-prefix {
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    border-right: 1px solid #ddd;
+    border-bottom: none;
+    min-width: auto;
+    width: 100%;
+  }
+  
+  .danone-value-field {
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    border-top: none;
+  }
+  
+  .danone-payment-methods {
+    flex-direction: column;
+  }
+  
+  .danone-protection-badge {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .danone-content {
+    padding: var(--spacing-md);
+  }
+  
+  .danone-logo-img {
+    width: 80px;
+  }
+  
+  .danone-title {
+    font-size: 18px;
+  }
+  
+  .danone-subtitle {
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Animações */
+.danone-content {
+  animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estados de foco e hover melhorados */
+.danone-value-field:focus,
+.danone-payment-option:focus,
+.danone-contribute-button:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Melhorias de acessibilidade */
+.danone-contribute-button:focus-visible,
+.danone-payment-option:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Loading state para o botão */
+.danone-contribute-button:disabled {
+  position: relative;
+  color: transparent;
+}
+
+.danone-contribute-button:disabled::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
