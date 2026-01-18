@@ -1,4 +1,3 @@
-import api from "@/lib/axios";
 import type {
   CheckoutApiResponse,
 } from "@checkout-layout/types/checkout";

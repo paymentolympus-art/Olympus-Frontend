@@ -1,5 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { CheckoutProvider } from "@checkout/CheckoutProvider";
 import {
   adaptCheckoutTheme,
@@ -10,19 +9,6 @@ import LayoutFactory from "@checkout-layout/factory";
 import { usePublicCheckout } from "@/hooks/usePublicCheckout";
 import { useCheckout } from "@checkout/hooks/useCheckout";
 import { CheckoutFrame } from "@checkout/CheckoutFrame";
-
-// Rotas conhecidas que NÃO devem ser tratadas como checkout público
-const KNOWN_ROUTES = [
-  "login",
-  "register",
-  "termos",
-  "user",
-  "api",
-  "webhooks",
-  "theme",
-  "checkout",
-  "auth",
-];
 
 function LoadingSpinner() {
   return (
