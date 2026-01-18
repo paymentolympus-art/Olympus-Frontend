@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { Routers } from "./Routers";
 import { ThemeProvider } from "./components/theme-provider";
-// import { Toaster } from "sonner";
+import { QueryProvider } from "./components/query-provider";
 import { Toaster } from "@/components/ui/sonner";
 
 /**
@@ -30,8 +30,10 @@ function App() {
     return (
       <BrowserRouter>
         <ThemeProvider>
-          <Routers />
-          <Toaster theme="dark" position="top-right" />
+          <QueryProvider>
+            <Routers />
+            <Toaster theme="dark" position="top-right" />
+          </QueryProvider>
         </ThemeProvider>
       </BrowserRouter>
     );
