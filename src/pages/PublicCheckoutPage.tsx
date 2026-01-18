@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 import { CheckoutProvider } from "@checkout/CheckoutProvider";
 import {
   adaptCheckoutTheme,
@@ -9,6 +10,21 @@ import LayoutFactory from "@checkout-layout/factory";
 import { usePublicCheckout } from "@/hooks/usePublicCheckout";
 import { useCheckout } from "@checkout/hooks/useCheckout";
 import { CheckoutFrame } from "@checkout/CheckoutFrame";
+
+// Rotas conhecidas que NÃO devem ser tratadas como checkout público
+const KNOWN_ROUTES = [
+  "login",
+  "register",
+  "termos",
+  "user",
+  "api",
+  "webhooks",
+  "theme",
+  "checkout",
+  "auth",
+  "health",
+  "uploads",
+];
 
 function LoadingSpinner() {
   return (
@@ -78,9 +94,25 @@ export function PublicCheckoutPage() {
   const { slug: slugFromParams } = useParams<{ slug: string }>();
   const slug = slugFromParams || window.location.pathname.replace(/^\//, "") || "";
   
+  // Verificar se é uma rota conhecida do gateway
+  useEffect(() => {
+    if (slug && KNOWN_ROUTES.includes(slug.toLowerCase())) {
+      // Se for uma rota conhecida, mostrar erro
+      console.warn(`Rota conhecida acessada em domínio de checkout: ${slug}`);
+    }
+  }, [slug]);
+  
+  // Se for rota conhecida, não tentar carregar como checkout
+  const shouldLoadCheckout = slug && !KNOWN_ROUTES.includes(slug.toLowerCase());
+  
   const { checkoutData, loading, error, hasData } = usePublicCheckout(
-    slug
+    shouldLoadCheckout ? slug : ""
   );
+
+  // Se for rota conhecida, mostrar erro específico
+  if (!shouldLoadCheckout) {
+    return <ErrorMessage error="Página não disponível neste domínio" />;
+  }
 
   if (loading) {
     return <LoadingSpinner />;
