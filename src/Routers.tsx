@@ -30,6 +30,7 @@ import { ConfigurationPage } from "./pages/user/ConfigurationPage";
 import { AwardsPage } from "./pages/user/AwardsPage";
 import { ApiKeyPage } from "./pages/user/ApiKeyPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { PublicCheckoutPage } from "./pages/PublicCheckoutPage";
 
 export function Routers() {
   return (
@@ -73,6 +74,10 @@ export function Routers() {
           element={<CheckoutPage />}
         />
       </Route>
+
+      {/* ROTA PÚBLICA DE CHECKOUT - Deve vir ANTES do 404 */}
+      {/* Captura qualquer slug na raiz: /slug-da-oferta */}
+      <Route path="/:slug" element={<PublicCheckoutPage />} />
 
       {/* NOT FOUND */}
       <Route path="*" element={<NotFoundPage />} />
