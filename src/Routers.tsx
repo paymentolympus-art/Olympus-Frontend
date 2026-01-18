@@ -57,6 +57,8 @@ export function Routers() {
         {/* Rota catch-all para qualquer slug - APENAS checkout público */}
         <Route path="/:slug" element={<PublicCheckoutPage />} />
         <Route path="/" element={<PublicCheckoutPage />} />
+        {/* Fallback 404 para domínios customizados */}
+        <Route path="*" element={<PublicCheckoutPage />} />
       </Routes>
     );
   }

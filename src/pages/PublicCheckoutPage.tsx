@@ -88,23 +88,12 @@ function PublicCheckoutView() {
  * Acessada via: pay.seudominio.com.br/slug-da-oferta
  */
 export function PublicCheckoutPage() {
-  const { slug } = useParams<{ slug: string }>();
-  const navigate = useNavigate();
-
-  // Verificar se é uma rota conhecida
-  useEffect(() => {
-    if (slug && KNOWN_ROUTES.includes(slug.toLowerCase())) {
-      navigate("/404", { replace: true });
-    }
-  }, [slug, navigate]);
-
-  // Se for rota conhecida, não renderizar nada (já redirecionou)
-  if (slug && KNOWN_ROUTES.includes(slug.toLowerCase())) {
-    return null;
-  }
-
+  // Pegar slug da URL diretamente se não vier do params
+  const { slug: slugFromParams } = useParams<{ slug: string }>();
+  const slug = slugFromParams || window.location.pathname.replace(/^\//, "") || "";
+  
   const { checkoutData, loading, error, hasData } = usePublicCheckout(
-    slug || ""
+    slug
   );
 
   if (loading) {
