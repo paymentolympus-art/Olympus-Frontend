@@ -32,7 +32,36 @@ import { ApiKeyPage } from "./pages/user/ApiKeyPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { PublicCheckoutPage } from "./pages/PublicCheckoutPage";
 
+/**
+ * Verifica se está em um domínio customizado de checkout
+ */
+function isCheckoutCustomDomain(): boolean {
+  const hostname = window.location.hostname;
+  
+  const mainDomains = [
+    "olympuspayment.com.br",
+    "www.olympuspayment.com.br",
+    "olympus-frontend-swart.vercel.app",
+    "localhost",
+    "127.0.0.1",
+  ];
+  
+  return !mainDomains.some(domain => hostname.includes(domain));
+}
+
 export function Routers() {
+  // Se estiver em domínio customizado, renderizar APENAS checkout público
+  if (isCheckoutCustomDomain()) {
+    return (
+      <Routes>
+        {/* Rota catch-all para qualquer slug - APENAS checkout público */}
+        <Route path="/:slug" element={<PublicCheckoutPage />} />
+        <Route path="/" element={<PublicCheckoutPage />} />
+      </Routes>
+    );
+  }
+
+  // Se estiver no domínio principal, renderizar gateway completo
   return (
     <Routes>
       <Route path={ROUTES_LAYOUT.DEFAULT} element={<DefaultLayout />}>
@@ -74,10 +103,6 @@ export function Routers() {
           element={<CheckoutPage />}
         />
       </Route>
-
-      {/* ROTA PÚBLICA DE CHECKOUT - Deve vir ANTES do 404 */}
-      {/* Captura qualquer slug na raiz: /slug-da-oferta */}
-      <Route path="/:slug" element={<PublicCheckoutPage />} />
 
       {/* NOT FOUND */}
       <Route path="*" element={<NotFoundPage />} />
