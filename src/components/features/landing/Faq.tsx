@@ -22,10 +22,10 @@ const faqData = [
   {
     question: "Quanto tempo demora para aprovar meu produto?",
     answer:
-      "Na InsanePay, a aprovação de produtos é rápida e sem complicações. Em até 24 horas úteis, tudo pode estar pronto para você começar a vender.",
+      "Na OlympusPay, a aprovação de produtos é rápida e sem complicações. Em até 24 horas úteis, tudo pode estar pronto para você começar a vender.",
   },
   {
-    question: "A InsanePay oferece suporte técnico?",
+    question: "A OlympusPay oferece suporte técnico?",
     answer:
       "Sim, oferecemos suporte técnico 24/7. Nossa equipe está sempre disponível para ajudar com qualquer dúvida ou problema que você possa ter. Entre em contato conosco através do chat, email ou telefone.",
   },

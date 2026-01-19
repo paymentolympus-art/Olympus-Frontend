@@ -157,3 +157,4 @@ Envie:
 2. URL do backend testada (`/health`)
 3. Confirmação de que todas as variáveis estão configuradas
 
+

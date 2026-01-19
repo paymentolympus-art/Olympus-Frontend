@@ -17,7 +17,7 @@ import { SlideUp } from "@/components/animations/slide-up";
 const awards = [
   {
     id: 1,
-    name: "InsanePay Bronze",
+    name: "OlympusPay Bronze",
     achievement: "10K",
     image: "/plates/10k.png",
     description: "Parabéns por conquistar 10K",
@@ -25,7 +25,7 @@ const awards = [
   },
   {
     id: 2,
-    name: "InsanePay Silver",
+    name: "OlympusPay Silver",
     achievement: "50K",
     image: "/plates/50k.png",
     description: "Parabéns por conquistar 50K",
@@ -33,7 +33,7 @@ const awards = [
   },
   {
     id: 3,
-    name: "InsanePay Gold",
+    name: "OlympusPay Gold",
     achievement: "100K",
     image: "/plates/100k.png",
     description: "Parabéns por conquistar 100K",
@@ -41,7 +41,7 @@ const awards = [
   },
   {
     id: 4,
-    name: "InsanePay Legendary",
+    name: "OlympusPay Legendary",
     achievement: "300K",
     image: "/plates/300k.png",
     description: "Parabéns por conquistar 300K",
@@ -49,7 +49,7 @@ const awards = [
   },
   {
     id: 5,
-    name: "InsanePay Master",
+    name: "OlympusPay Master",
     achievement: "500K",
     image: "/plates/500k.png",
     description: "Parabéns por conquistar 500K",
@@ -57,7 +57,7 @@ const awards = [
   },
   {
     id: 6,
-    name: "InsanePay Insane",
+    name: "OlympusPay Olympus",
     achievement: "1 MILHÃO",
     image: "/plates/1m.png",
     description: "Parabéns por conquistar 1 MILHÃO",

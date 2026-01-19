@@ -18,7 +18,7 @@ const features = [
     name: "Checkouts Personalizados",
     description: "Somos aqueles que fazem checkouts personalizados.",
     href: "/register",
-    cta: "Seja Insane",
+    cta: "Seja Olympus",
     className: "col-span-3 lg:col-span-2",
     background: (
       <div className="absolute right-0 top-0 w-full h-full">
@@ -35,7 +35,7 @@ const features = [
     name: "Alta Taxa de Conversão",
     description: "Não perca mais vendas por taxas de checkout.",
     href: "/register",
-    cta: "Seja Insane",
+    cta: "Seja Olympus",
     className: "col-span-3 lg:col-span-1",
     background: (
       <div className="absolute right-0 top-0 w-full h-full">
@@ -53,7 +53,7 @@ const features = [
     description: "Disponibilidade em multiplos canais.",
     className: "col-span-3 lg:col-span-1",
     href: "/register",
-    cta: "Seja Insane",
+    cta: "Seja Olympus",
     background: (
       <div className="absolute right-0 top-0 w-full h-full">
         <img
@@ -69,7 +69,7 @@ const features = [
     name: "Integrações Essenciais",
     description: "Integrações essenciais para o seu negócio.",
     href: "/register",
-    cta: "Seja Insane",
+    cta: "Seja Olympus",
     className: "col-span-3 lg:col-span-2",
     background: (
       <AnimatedBeamMultipleOutput className="absolute right-2 top-4 h-[300px] border-none transition-all duration-300 ease-out  group-hover:scale-105" />

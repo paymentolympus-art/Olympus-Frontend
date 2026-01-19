@@ -60,7 +60,7 @@ FRONTEND_URL = https://olympus-frontend-xxxxx.vercel.app (URL do frontend após 
 
 BACKEND_URL = https://olympus-payment.vercel.app
 
-DOMAIN_CNAME_VALUE = checkout.insanepay.com.br (opcional)
+DOMAIN_CNAME_VALUE = checkout.olympuspay.com.br (opcional)
 ```
 
 ---
@@ -146,4 +146,5 @@ Se houver algum erro após o deploy:
 1. Verifique os logs na Vercel (Runtime Logs / Build Logs)
 2. Verifique se todas as variáveis de ambiente estão configuradas
 3. Verifique se as URLs estão corretas (sem barras no final)
+
 

@@ -170,7 +170,7 @@ export function GLobe() {
                 window.location.href = ROUTES_PUBLIC.REGISTER;
               }}
             >
-              <span className="text-white cursor-pointer">Seja Insane</span>
+              <span className="text-white cursor-pointer">Seja Olympus</span>
               <BsArrowRightCircleFill className="w-6 h-6 cursor-pointer text-white/70" />
             </Button>
           </div>

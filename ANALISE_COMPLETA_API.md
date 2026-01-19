@@ -1041,5 +1041,6 @@ VITE_URL=https://api.exemplo.com
 
 **Documento gerado automaticamente a partir da análise do código front-end**
 **Data**: $(date)
-**Projeto**: InsanePay Front-End
+**Projeto**: OlympusPay Front-End
+
 

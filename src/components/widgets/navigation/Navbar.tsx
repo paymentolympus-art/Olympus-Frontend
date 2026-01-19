@@ -125,7 +125,7 @@ export function Navbar() {
                     window.location.href = ROUTES_PUBLIC.REGISTER;
                   }}
                 >
-                  Seja Insane
+                  Seja Olympus
                   <BsArrowRightCircleFill className="w-6 h-6 cursor-pointer text-white/70" />
                 </Button>
               </motion.div>

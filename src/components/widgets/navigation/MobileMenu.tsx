@@ -104,7 +104,7 @@ export function MobileMenu({ isScrolled }: MobileMenuProps) {
                       window.location.href = ROUTES_PUBLIC.REGISTER;
                     }}
                   >
-                    Seja Insane
+                    Seja Olympus
                   </Button>
                 </motion.div>
               </div>

@@ -136,9 +136,9 @@ function PrivacyBuyersContent() {
         <br />
         <br />
         Além disso, estamos sempre disponíveis para tirar qualquer dúvida geral
-        que você tenha por meio do <strong>contato@insanepay.com.br</strong>.
+        que você tenha por meio do <strong>contato@olympuspay.com.br</strong>.
         Para falar especificamente sobre seus dados pessoais, possuímos um canal
-        específico: <strong>lgpd@insanepay.com.br</strong>.
+        específico: <strong>lgpd@olympuspay.com.br</strong>.
       </InfoBox>
 
       <SectionTitle>
@@ -165,14 +165,14 @@ function PrivacyBuyersContent() {
 
       <Paragraph>
         Além disso, também existem alguns suboperadores terceiros contratados
-        pela InsanePay, que podem realizar o tratamento dos dados pessoais, como
+        pela OlympusPay, que podem realizar o tratamento dos dados pessoais, como
         assessoria jurídica, parceiros tecnológicos, servidores, entre outros.
       </Paragraph>
 
       <SectionTitle>2. Como faremos a segurança de seus dados?</SectionTitle>
 
       <Paragraph>
-        A InsanePay se compromete a manter os dados fornecidos na plataforma em
+        A OlympusPay se compromete a manter os dados fornecidos na plataforma em
         ambiente seguro, observados o porte do tratamento, por meio de medidas
         técnicas compatíveis com os padrões internacionais e pelo estímulo ao
         uso de boas práticas, o que inclui uma análise de riscos de segurança da
@@ -185,7 +185,7 @@ function PrivacyBuyersContent() {
         armazenadas em ambiente seguro, a plataforma utiliza os servidores AWS
         (Amazon Web Services), cujo acesso é restrito. Com isso, essa empresa
         passa a ter acesso aos seus dados somente para armazená-los assim que
-        você os fornece na InsanePay.
+        você os fornece na OlympusPay.
       </Paragraph>
 
       <SectionTitle>
@@ -241,7 +241,7 @@ function PrivacyBuyersContent() {
         Quando você entra na nossa plataforma, colhemos seus registros de
         acesso, ou seja, conjunto de informações referentes à data e hora de uso
         de uma determinada aplicação de internet a partir de um determinado
-        endereço IP. Essas informações serão mantidas pela InsanePay, sob
+        endereço IP. Essas informações serão mantidas pela OlympusPay, sob
         sigilo, em ambiente controlado e de segurança, pelo prazo mínimo de 06
         (seis) meses, nos termos da Lei n. 12.965/2014, e artigo 7º, II, da Lei
         n. 13.709/18.
@@ -297,15 +297,15 @@ function PrivacyBuyersContent() {
         </h2>
 
         <WarningBox>
-          Antes de acessar a plataforma INSANEPAY, é importante que você leia,
+          Antes de acessar a plataforma OLYMPUSPAY, é importante que você leia,
           entenda e aceite de forma livre, inequívoca e informada este Aviso de
           Privacidade.
         </WarningBox>
 
         <Paragraph>
-          Esta plataforma, cujo nome é <strong>https://insanepay.com.br</strong>
+          Esta plataforma, cujo nome é <strong>https://olympuspay.com.br</strong>
           , é de propriedade e mantida por{" "}
-          <Highlight>INSANEPAY TECNOLOGIA SERVIÇOS E PAGAMENTOS LTDA</Highlight>
+          <Highlight>OLYMPUSPAY TECNOLOGIA SERVIÇOS E PAGAMENTOS LTDA</Highlight>
           , pessoa jurídica de direito privado, inscrita no CNPJ sob o nº{" "}
           <Highlight>00.000.000/0001-00</Highlight>, com endereço na Rua
           Example, nº 000, Bairro Centro, na Cidade de São Paulo - SP, CEP
@@ -407,7 +407,7 @@ function PrivacyBuyersContent() {
         <Paragraph>
           Ao aceitar o presente Aviso de Privacidade, o Usuário Comprador
           compreende que a coleta e tratamento dos dados pessoais abaixo são
-          necessários para a prestação do serviço com a InsanePay, conforme
+          necessários para a prestação do serviço com a OlympusPay, conforme
           informações apresentadas a seguir:
         </Paragraph>
 
@@ -499,11 +499,11 @@ function PrivacyBuyersContent() {
         </SectionTitle>
 
         <Paragraph>
-          <strong>7.1. Cancelamento de contas de acesso pela InsanePay:</strong>
+          <strong>7.1. Cancelamento de contas de acesso pela OlympusPay:</strong>
         </Paragraph>
 
         <Paragraph>
-          A InsanePay poderá, a seu exclusivo critério, bloquear, restringir,
+          A OlympusPay poderá, a seu exclusivo critério, bloquear, restringir,
           desabilitar ou impedir o acesso de qualquer Usuário à plataforma
           sempre que for detectada uma conduta inadequada.
         </Paragraph>
@@ -516,9 +516,9 @@ function PrivacyBuyersContent() {
 
         <Paragraph>
           Para cancelar os serviços e requisitar a exclusão da conta de acesso,
-          o Usuário Comprador deverá entrar em contato com a InsanePay
+          o Usuário Comprador deverá entrar em contato com a OlympusPay
           solicitando a exclusão de acesso pelo e-mail{" "}
-          <strong>contato@insanepay.com.br</strong>. Caso exista algum tipo de
+          <strong>contato@olympuspay.com.br</strong>. Caso exista algum tipo de
           compra, pagamento ou utilização pendente, a conta só será cancelada
           após a solução da pendência.
         </Paragraph>
@@ -529,7 +529,7 @@ function PrivacyBuyersContent() {
 
         <Paragraph>
           Quando finda a finalidade de tratamento de dados, o Usuário Comprador
-          poderá solicitar à InsanePay a exclusão das informações, porém, caberá
+          poderá solicitar à OlympusPay a exclusão das informações, porém, caberá
           a ela avaliar junto ao controlador dos dados a possibilidade de
           exclusão das informações.
         </Paragraph>
@@ -546,7 +546,7 @@ function PrivacyBuyersContent() {
         </WarningBox>
 
         <Paragraph>
-          A InsanePay não se responsabiliza por quaisquer prejuízos, danos ou
+          A OlympusPay não se responsabiliza por quaisquer prejuízos, danos ou
           problemas que os Usuários ou terceiros tenham em função da deleção dos
           dados disposta nesta cláusula.
         </Paragraph>
@@ -593,7 +593,7 @@ function PrivacyBuyersContent() {
         <SectionTitle>9. MUDANÇAS NO AVISO DE PRIVACIDADE</SectionTitle>
 
         <Paragraph>
-          A InsanePay poderá unilateralmente adicionar e/ou modificar qualquer
+          A OlympusPay poderá unilateralmente adicionar e/ou modificar qualquer
           cláusula contida neste Aviso de Privacidade. A versão atualizada
           valerá para o uso da plataforma realizada a partir de sua publicação.
           A continuidade de acesso ou utilização da plataforma, depois da
@@ -610,23 +610,23 @@ function PrivacyBuyersContent() {
         <SectionTitle>CANAIS DE COMUNICAÇÃO SOBRE PRIVACIDADE</SectionTitle>
 
         <Paragraph>
-          A InsanePay ressalta que a sua privacidade continua sendo nossa
+          A OlympusPay ressalta que a sua privacidade continua sendo nossa
           prioridade, por isso disponibiliza os seguintes canais para
           comunicação sobre qualquer assunto envolvendo dados pessoais:
         </Paragraph>
 
         <InfoBox>
-          <strong>E-mail LGPD:</strong> lgpd@insanepay.com.br
+          <strong>E-mail LGPD:</strong> lgpd@olympuspay.com.br
           <br />
-          <strong>E-mail geral:</strong> contato@insanepay.com.br
+          <strong>E-mail geral:</strong> contato@olympuspay.com.br
           <br />
-          <strong>E-mail reembolso:</strong> contato@insanepay.com.br
+          <strong>E-mail reembolso:</strong> contato@olympuspay.com.br
           <br />
-          <strong>E-mail denúncias:</strong> denuncias@insanepay.com.br
+          <strong>E-mail denúncias:</strong> denuncias@olympuspay.com.br
           <br />
-          <strong>E-mail jurídico:</strong> juridico@insanepay.com.br
+          <strong>E-mail jurídico:</strong> juridico@olympuspay.com.br
           <br />
-          <strong>E-mail ouvidoria:</strong> ouvidoria@insanepay.com.br
+          <strong>E-mail ouvidoria:</strong> ouvidoria@olympuspay.com.br
           <br />
           <strong>Telefone:</strong> (99) 99999-9999
           <br />
@@ -641,13 +641,13 @@ function PrivacySiteContent() {
   return (
     <article className="prose prose-invert prose-purple max-w-none">
       <p className="text-gray-400 text-sm mb-6">
-        Aviso de Privacidade do Site InsanePay
+        Aviso de Privacidade do Site OlympusPay
       </p>
 
       <InfoBox>
         Este Aviso de Privacidade descreve como coletamos, usamos e protegemos
         suas informações quando você visita nosso site institucional{" "}
-        <strong>insanepay.com.br</strong>.
+        <strong>olympuspay.com.br</strong>.
       </InfoBox>
 
       <SectionTitle>1. Informações que coletamos</SectionTitle>
@@ -711,7 +711,7 @@ function PrivacySiteContent() {
       </Paragraph>
 
       <WarningBox>
-        E-mail: <strong>lgpd@insanepay.com.br</strong>
+        E-mail: <strong>lgpd@olympuspay.com.br</strong>
         <br />
         Telefone: <strong>(99) 99999-9999</strong>
       </WarningBox>
@@ -745,8 +745,8 @@ function PrivacySellersContent() {
         <br />
         <br />
         Estamos sempre disponíveis para tirar qualquer dúvida geral através do{" "}
-        <strong>contato@insanepay.com.br</strong>. Para falar especificamente
-        sobre seus dados pessoais: <strong>lgpd@insanepay.com.br</strong>.
+        <strong>contato@olympuspay.com.br</strong>. Para falar especificamente
+        sobre seus dados pessoais: <strong>lgpd@olympuspay.com.br</strong>.
       </InfoBox>
 
       <SectionTitle>
@@ -754,7 +754,7 @@ function PrivacySellersContent() {
       </SectionTitle>
 
       <Paragraph>
-        A <Highlight>InsanePay Tecnologia e Pagamentos Ltda.</Highlight>,
+        A <Highlight>OlympusPay Tecnologia e Pagamentos Ltda.</Highlight>,
         inscrita no CNPJ nº <Highlight>00.000.000/0001-00</Highlight>, é a{" "}
         <strong>controladora</strong> dos dados pessoais dos Usuários Vendedores
         e Afiliados, sendo responsável pelas decisões referentes ao tratamento
@@ -845,7 +845,7 @@ function PrivacySellersContent() {
       <WarningBox>
         Você pode exercer seus direitos de titular de dados (acesso, correção,
         exclusão, portabilidade) através do e-mail:{" "}
-        <strong>lgpd@insanepay.com.br</strong>
+        <strong>lgpd@olympuspay.com.br</strong>
       </WarningBox>
     </article>
   );
@@ -855,12 +855,12 @@ function EthicsContent() {
   return (
     <article className="prose prose-invert prose-purple max-w-none">
       <p className="text-gray-400 text-sm mb-6">
-        Código de Ética e Conduta da InsanePay
+        Código de Ética e Conduta da OlympusPay
       </p>
 
       <InfoBox>
         O presente Código de Ética estabelece os princípios, valores e
-        diretrizes que norteiam a atuação da InsanePay e de todos os seus
+        diretrizes que norteiam a atuação da OlympusPay e de todos os seus
         colaboradores, parceiros e usuários.
       </InfoBox>
 
@@ -944,7 +944,7 @@ function EthicsContent() {
       </Paragraph>
 
       <InfoBox>
-        <strong>E-mail:</strong> etica@insanepay.com.br
+        <strong>E-mail:</strong> etica@olympuspay.com.br
         <br />
         <strong>Telefone:</strong> (99) 99999-9999
         <br />
@@ -972,11 +972,11 @@ function AntifraudContent() {
   return (
     <article className="prose prose-invert prose-purple max-w-none">
       <p className="text-gray-400 text-sm mb-6">
-        Política Antifraude da InsanePay
+        Política Antifraude da OlympusPay
       </p>
 
       <InfoBox>
-        A InsanePay está comprometida em manter um ambiente seguro para todos os
+        A OlympusPay está comprometida em manter um ambiente seguro para todos os
         usuários. Esta política descreve as medidas que adotamos para prevenir,
         detectar e combater fraudes em nossa plataforma.
       </InfoBox>
@@ -984,7 +984,7 @@ function AntifraudContent() {
       <SectionTitle>1. Compromisso com a Segurança</SectionTitle>
 
       <Paragraph>
-        A prevenção à fraude é prioridade na InsanePay. Investimos continuamente
+        A prevenção à fraude é prioridade na OlympusPay. Investimos continuamente
         em tecnologias e processos para proteger nossos usuários e garantir a
         integridade das transações realizadas em nossa plataforma.
       </Paragraph>
@@ -1082,7 +1082,7 @@ function AntifraudContent() {
       <InfoBox>
         Para reportar atividades suspeitas ou fraudes:
         <br />
-        <strong>E-mail:</strong> seguranca@insanepay.com.br
+        <strong>E-mail:</strong> seguranca@olympuspay.com.br
         <br />
         <strong>Telefone:</strong> (99) 99999-9999
       </InfoBox>
@@ -1094,7 +1094,7 @@ function CookiesContent() {
   return (
     <article className="prose prose-invert prose-purple max-w-none">
       <p className="text-gray-400 text-sm mb-6">
-        Política de Cookies da InsanePay
+        Política de Cookies da OlympusPay
       </p>
 
       <InfoBox>
@@ -1205,7 +1205,7 @@ function CookiesContent() {
       <InfoBox>
         Para dúvidas sobre nossa Política de Cookies, entre em contato:
         <br />
-        <strong>E-mail:</strong> privacidade@insanepay.com.br
+        <strong>E-mail:</strong> privacidade@olympuspay.com.br
       </InfoBox>
     </article>
   );
@@ -1220,7 +1220,7 @@ function AmlContent() {
       </p>
 
       <InfoBox>
-        A InsanePay está comprometida com a prevenção à lavagem de dinheiro e ao
+        A OlympusPay está comprometida com a prevenção à lavagem de dinheiro e ao
         financiamento do terrorismo, em conformidade com a Lei nº 9.613/1998 e
         regulamentações do Banco Central do Brasil e COAF.
       </InfoBox>
@@ -1228,7 +1228,7 @@ function AmlContent() {
       <SectionTitle>1. Compromisso Institucional</SectionTitle>
 
       <Paragraph>
-        A InsanePay adota políticas, procedimentos e controles internos
+        A OlympusPay adota políticas, procedimentos e controles internos
         destinados a prevenir a utilização de sua plataforma para fins de
         lavagem de dinheiro, ocultação de bens, direitos e valores, e
         financiamento do terrorismo.
@@ -1297,7 +1297,7 @@ function AmlContent() {
       <SectionTitle>6. Treinamento</SectionTitle>
 
       <Paragraph>
-        Todos os colaboradores da InsanePay recebem treinamento periódico sobre:
+        Todos os colaboradores da OlympusPay recebem treinamento periódico sobre:
       </Paragraph>
 
       <ul className="mb-4">
@@ -1321,7 +1321,7 @@ function AmlContent() {
         Para reportar atividades suspeitas ou obter informações sobre nossa
         política de PLD/FT:
         <br />
-        <strong>E-mail:</strong> compliance@insanepay.com.br
+        <strong>E-mail:</strong> compliance@olympuspay.com.br
         <br />
         <strong>Telefone:</strong> (99) 99999-9999
       </InfoBox>
@@ -1333,19 +1333,19 @@ function SecurityContent() {
   return (
     <article className="prose prose-invert prose-purple max-w-none">
       <p className="text-gray-400 text-sm mb-6">
-        Política de Segurança da Informação da InsanePay
+        Política de Segurança da Informação da OlympusPay
       </p>
 
       <InfoBox>
         A segurança das informações de nossos usuários é prioridade máxima na
-        InsanePay. Esta política descreve as medidas técnicas e organizacionais
+        OlympusPay. Esta política descreve as medidas técnicas e organizacionais
         que adotamos para proteger seus dados.
       </InfoBox>
 
       <SectionTitle>1. Compromisso com a Segurança</SectionTitle>
 
       <Paragraph>
-        A InsanePay investe continuamente em segurança da informação,
+        A OlympusPay investe continuamente em segurança da informação,
         implementando controles baseados em padrões internacionais reconhecidos
         como ISO 27001 e PCI-DSS.
       </Paragraph>
@@ -1448,9 +1448,9 @@ function SecurityContent() {
       <InfoBox>
         Para reportar vulnerabilidades ou incidentes de segurança:
         <br />
-        <strong>E-mail:</strong> seguranca@insanepay.com.br
+        <strong>E-mail:</strong> seguranca@olympuspay.com.br
         <br />
-        <strong>Bug Bounty:</strong> bugbounty@insanepay.com.br
+        <strong>Bug Bounty:</strong> bugbounty@olympuspay.com.br
       </InfoBox>
     </article>
   );
@@ -1464,22 +1464,22 @@ function GeneralTermsContent() {
       </p>
 
       <InfoBox>
-        Os seguintes Termos regem a sua experiência como Usuário da InsanePay. É
+        Os seguintes Termos regem a sua experiência como Usuário da OlympusPay. É
         crucial que você compreenda estes Termos, pois a utilização dos nossos
         serviços implica na sua aceitação.
       </InfoBox>
 
       <Paragraph>
-        A InsanePay oferece um espaço para quem deseja criar ou divulgar um
+        A OlympusPay oferece um espaço para quem deseja criar ou divulgar um
         produto digital de forma simples e prática, possibilitando que as
         pessoas vivam de suas paixões e compartilhem o que têm de melhor com o
         mundo todo.
       </Paragraph>
 
       <Paragraph>
-        Estes Termos regem o uso da Plataforma InsanePay e de todos os recursos,
+        Estes Termos regem o uso da Plataforma OlympusPay e de todos os recursos,
         aplicativos, serviços, tecnologias e softwares disponibilizados pela
-        InsanePay, exceto quando esclarecemos expressamente que outros termos (e
+        OlympusPay, exceto quando esclarecemos expressamente que outros termos (e
         não estes) se aplicam.
       </Paragraph>
 
@@ -1490,30 +1490,30 @@ function GeneralTermsContent() {
         </strong>{" "}
         Você deve ler estes Termos de forma atenta e cuidadosa, pois eles contêm
         informações importantes sobre seus direitos e obrigações relativos ao
-        acesso ou uso dos recursos ou Serviços da InsanePay.
+        acesso ou uso dos recursos ou Serviços da OlympusPay.
       </WarningBox>
 
       <SectionTitle>TERMOS DE USO</SectionTitle>
 
       <Paragraph>
-        A empresa <Highlight>InsanePay Tecnologia e Pagamentos Ltda.</Highlight>
+        A empresa <Highlight>OlympusPay Tecnologia e Pagamentos Ltda.</Highlight>
         , uma pessoa jurídica de direito privado, registrada sob o CNPJ nº{" "}
         <Highlight>00.000.000/0001-00</Highlight> e proprietária exclusiva dos
-        domínios <strong>insanepay.com.br</strong>, será referida como
-        "InsanePay" ou "Plataforma".
+        domínios <strong>olympuspay.com.br</strong>, será referida como
+        "OlympusPay" ou "Plataforma".
       </Paragraph>
 
       <SectionTitle>1. DEFINIÇÕES</SectionTitle>
 
       <Paragraph>
         <strong>1.1. Plataforma:</strong> Conjunto de ferramentas, sistemas e
-        serviços oferecidos pela InsanePay para facilitar transações comerciais
+        serviços oferecidos pela OlympusPay para facilitar transações comerciais
         digitais.
       </Paragraph>
 
       <Paragraph>
         <strong>1.2. Usuário:</strong> Qualquer pessoa física ou jurídica que
-        acesse, utilize ou interaja com os serviços da InsanePay.
+        acesse, utilize ou interaja com os serviços da OlympusPay.
       </Paragraph>
 
       <Paragraph>
@@ -1534,7 +1534,7 @@ function GeneralTermsContent() {
       <SectionTitle>2. CONDIÇÕES DE USO</SectionTitle>
 
       <Paragraph>
-        <strong>2.1.</strong> Para utilizar os serviços da InsanePay, o usuário
+        <strong>2.1.</strong> Para utilizar os serviços da OlympusPay, o usuário
         deve ter pelo menos 18 (dezoito) anos de idade ou ser emancipado nos
         termos da legislação vigente.
       </Paragraph>
@@ -1558,7 +1558,7 @@ function GeneralTermsContent() {
       <SectionTitle>3. SERVIÇOS OFERECIDOS</SectionTitle>
 
       <Paragraph>
-        <strong>3.1.</strong> A InsanePay disponibiliza uma plataforma completa
+        <strong>3.1.</strong> A OlympusPay disponibiliza uma plataforma completa
         para processamento de pagamentos, gestão de produtos digitais e físicos,
         e ferramentas de marketing.
       </Paragraph>
@@ -1578,7 +1578,7 @@ function GeneralTermsContent() {
         <ListItem>Prevenção a fraudes</ListItem>
       </ul>
 
-      <SectionTitle>4. RESPONSABILIDADES DA INSANEPAY</SectionTitle>
+      <SectionTitle>4. RESPONSABILIDADES DA OLYMPUSPAY</SectionTitle>
 
       <Paragraph>
         <strong>4.1.</strong> Manter a plataforma em funcionamento, salvo
@@ -1621,7 +1621,7 @@ function GeneralTermsContent() {
       <SectionTitle>6. TAXAS E PAGAMENTOS</SectionTitle>
 
       <Paragraph>
-        <strong>6.1.</strong> As taxas aplicáveis aos serviços da InsanePay
+        <strong>6.1.</strong> As taxas aplicáveis aos serviços da OlympusPay
         estão disponíveis na área logada do usuário e podem ser atualizadas
         mediante aviso prévio de 30 (trinta) dias.
       </Paragraph>
@@ -1640,9 +1640,9 @@ function GeneralTermsContent() {
       <SectionTitle>7. PROPRIEDADE INTELECTUAL</SectionTitle>
 
       <Paragraph>
-        <strong>7.1.</strong> Todo o conteúdo da plataforma InsanePay (marca,
+        <strong>7.1.</strong> Todo o conteúdo da plataforma OlympusPay (marca,
         logotipos, textos, códigos, design) é de propriedade exclusiva da
-        InsanePay ou de seus licenciadores.
+        OlympusPay ou de seus licenciadores.
       </Paragraph>
 
       <Paragraph>
@@ -1653,7 +1653,7 @@ function GeneralTermsContent() {
       <SectionTitle>8. SUSPENSÃO E ENCERRAMENTO</SectionTitle>
 
       <Paragraph>
-        <strong>8.1.</strong> A InsanePay reserva-se o direito de suspender ou
+        <strong>8.1.</strong> A OlympusPay reserva-se o direito de suspender ou
         encerrar contas que violem estes termos ou a legislação vigente.
       </Paragraph>
 
@@ -1690,7 +1690,7 @@ function GeneralTermsContent() {
       <InfoBox>
         <strong>Dúvidas?</strong> Entre em contato conosco:
         <br />
-        E-mail: contato@insanepay.com.br
+        E-mail: contato@olympuspay.com.br
         <br />
         Telefone: (99) 99999-9999
       </InfoBox>
@@ -1707,13 +1707,13 @@ function TermsConsumersContent() {
 
       <InfoBox>
         Estes termos regulam a relação entre você (consumidor/comprador) e os
-        vendedores que utilizam a plataforma InsanePay como meio de pagamento.
+        vendedores que utilizam a plataforma OlympusPay como meio de pagamento.
       </InfoBox>
 
-      <SectionTitle>1. Papel da InsanePay</SectionTitle>
+      <SectionTitle>1. Papel da OlympusPay</SectionTitle>
 
       <Paragraph>
-        <strong>1.1.</strong> A InsanePay atua como{" "}
+        <strong>1.1.</strong> A OlympusPay atua como{" "}
         <Highlight>intermediadora de pagamentos</Highlight> entre compradores e
         vendedores.
       </Paragraph>
@@ -1724,7 +1724,7 @@ function TermsConsumersContent() {
       </Paragraph>
 
       <Paragraph>
-        <strong>1.3.</strong> A InsanePay não é proprietária dos produtos
+        <strong>1.3.</strong> A OlympusPay não é proprietária dos produtos
         comercializados e não se responsabiliza pela qualidade, entrega ou
         características dos mesmos.
       </Paragraph>
@@ -1733,7 +1733,7 @@ function TermsConsumersContent() {
 
       <Paragraph>
         <strong>2.1.</strong> Ao realizar uma compra através de um checkout
-        InsanePay, você está adquirindo um produto ou serviço de um vendedor
+        OlympusPay, você está adquirindo um produto ou serviço de um vendedor
         independente.
       </Paragraph>
 
@@ -1790,7 +1790,7 @@ function TermsConsumersContent() {
       </Paragraph>
 
       <Paragraph>
-        <strong>4.3.</strong> A InsanePay processará o estorno após autorização
+        <strong>4.3.</strong> A OlympusPay processará o estorno após autorização
         do vendedor.
       </Paragraph>
 
@@ -1839,7 +1839,7 @@ function TermsConsumersContent() {
       </Paragraph>
 
       <InfoBox>
-        E-mail: suporte@insanepay.com.br
+        E-mail: suporte@olympuspay.com.br
         <br />
         Telefone: (99) 99999-9999
         <br />
@@ -1859,7 +1859,7 @@ function TermsConsumersContent() {
       </Paragraph>
 
       <Paragraph>
-        <strong>8.3.</strong> A InsanePay analisará a situação e poderá mediar a
+        <strong>8.3.</strong> A OlympusPay analisará a situação e poderá mediar a
         resolução entre as partes.
       </Paragraph>
 
@@ -1877,7 +1877,7 @@ function TermsConsumersContent() {
 
       <WarningBox>
         Para exercer seus direitos de titular de dados (acesso, correção,
-        exclusão), entre em contato: <strong>lgpd@insanepay.com.br</strong>
+        exclusão), entre em contato: <strong>lgpd@olympuspay.com.br</strong>
       </WarningBox>
     </article>
   );

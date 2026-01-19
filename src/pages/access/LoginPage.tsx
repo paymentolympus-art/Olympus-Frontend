@@ -8,7 +8,7 @@ export function LoginPage() {
         <div className="absolute z-10">
           <img
             src="/icons/bg-access.jpg"
-            alt="Insane"
+            alt="Olympus"
             className="w-full h-full object-cover"
           />
         </div>
@@ -20,7 +20,7 @@ export function LoginPage() {
             <div className="flex flex-col items-center justify-center mb-5">
               <img
                 src="/icons/logo-icon.png"
-                alt="Insane"
+                alt="Olympus"
                 className="w-[100px] h-24 cursor-pointer"
                 onClick={() => {
                   window.location.href = ROUTES_PUBLIC.LANDING;
@@ -29,7 +29,7 @@ export function LoginPage() {
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-white">
               Seja bem vindo(a) à{" "}
-              <span className="txt-gradient-1">Insane!</span>
+              <span className="txt-gradient-1">Olympus!</span>
             </h1>
             <p className="text-sm text-neutral-300 sm:text-neutral-400">
               Faça login para continuar

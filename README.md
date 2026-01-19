@@ -1,4 +1,4 @@
-# InsanePay
+# OlympusPay
 
 O projeto é uma SPA (Single Page Application) React com TypeScript, construída com Vite e organizada seguindo princípios de componentização e separation of concerns.
 

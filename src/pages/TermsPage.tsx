@@ -61,7 +61,7 @@ export function TermsPage() {
           <div className="flex items-center justify-between h-16">
             {/* Desktop: Logo on Left */}
             <Link to="/" className="hidden sm:flex items-center">
-              <img src="/icons/logo.png" alt="InsanePay Logo" className="h-8" />
+              <img src="/icons/logo.png" alt="OlympusPay Logo" className="h-8" />
             </Link>
 
             {/* Mobile: Menu Button on Left */}
@@ -80,12 +80,12 @@ export function TermsPage() {
             >
               <img
                 src="/icons/logo.png"
-                alt="InsanePay Logo"
+                alt="OlympusPay Logo"
                 className="hidden sm:block h-7"
               />
               <img
                 src="/icons/logo-icon.png"
-                alt="InsanePay Logo"
+                alt="OlympusPay Logo"
                 className="block sm:hidden h-12"
               />
             </Link>
@@ -197,22 +197,22 @@ export function TermsPage() {
             <div className="flex items-center gap-2">
               <img
                 src="/icons/logo-icon.png"
-                alt="InsanePay"
+                alt="OlympusPay"
                 className="w-8 h-8"
               />
               <span className="text-gray-500 text-sm">
-                © 2026 InsanePay - Todos os direitos reservados
+                © 2026 OlympusPay - Todos os direitos reservados
               </span>
             </div>
             <div className="flex items-center gap-6">
               <a
-                href="mailto:contato@insanepay.com.br"
+                href="mailto:contato@olympuspay.com.br"
                 className="text-gray-500 text-sm transition-colors"
               >
-                contato@insanepay.com.br
+                contato@olympuspay.com.br
               </a>
               <a
-                href="mailto:suporte@insanepay.com.br"
+                href="mailto:suporte@olympuspay.com.br"
                 className="text-gray-500 hover:text-purple-400 text-sm transition-colors"
               >
                 Suporte

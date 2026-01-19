@@ -41,7 +41,7 @@ export function Footer() {
                 <div className="w-full h-10 bg-transparent rounded-lg flex items-center justify-center">
                   <img
                     src="/icons/logo.png"
-                    alt="InsanePay Logo"
+                    alt="OlympusPay Logo"
                     className="w-full h-10"
                     style={{ width: isMobileOS ? "140px" : "100%" }}
                   />
@@ -126,7 +126,7 @@ export function Footer() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             {/* Copyright */}
             <div className="text-gray-400 text-sm">
-              © 2025 - InsanePay - Todos os direitos reservados
+              © 2025 - OlympusPay - Todos os direitos reservados
             </div>
 
             {/* Desenvolvido por */}
@@ -139,7 +139,7 @@ export function Footer() {
               >
                 <img
                   src="/icons/logo-icon.png"
-                  alt="InsanePay Logo"
+                  alt="OlympusPay Logo"
                   className="w-10 h-10 text-purple-100"
                 />
               </motion.div>

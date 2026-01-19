@@ -89,7 +89,7 @@ export function ApiKeyPage() {
             className="gap-2 border-purple-500/30 hover:bg-purple-500/10 hover:border-purple-500/50"
           >
             <a
-              href="https://docs.insanepag.com.br/"
+              href="https://docs.olympuspay.com.br/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -173,3 +173,4 @@ checkout.olympuspayment.com.br/oferta01
 - [ ] Oferta padrão criada
 - [ ] Teste: `https://pay.testandogat.shop/oferta01`
 
+

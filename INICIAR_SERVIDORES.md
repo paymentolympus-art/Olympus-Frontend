@@ -19,7 +19,7 @@ npm run dev
 **Você deve ver:**
 ```
 ✅ MongoDB conectado com sucesso!
-   Database: insane-pay
+   Database: olympus-pay
 🚀 Servidor iniciado com sucesso!
    URL: http://localhost:3000
 ```
@@ -144,4 +144,5 @@ VITE_URL=http://localhost:3000
 **🎯 Agora você pode acessar:**
 - **Frontend**: http://localhost:8080
 - **Backend API**: http://localhost:3000
+
 

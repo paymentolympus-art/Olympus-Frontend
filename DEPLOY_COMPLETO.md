@@ -94,7 +94,7 @@ FRONTEND_URL = https://olympus-frontend-xxxxx.vercel.app (URL do frontend após 
 
 BACKEND_URL = https://olympus-payment.vercel.app
 
-DOMAIN_CNAME_VALUE = checkout.insanepay.com.br
+DOMAIN_CNAME_VALUE = checkout.olympuspay.com.br
 ```
 
 #### **3.2 Frontend**
@@ -178,4 +178,5 @@ https://olympus-frontend-xxxxx.vercel.app
 ---
 
 **🎉 Após isso, seu gateway completo estará funcionando em produção!**
+
 

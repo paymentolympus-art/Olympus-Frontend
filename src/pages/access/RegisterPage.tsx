@@ -9,7 +9,7 @@ export function RegisterPage() {
         <div className="flex flex-col items-center justify-center mb-6">
           <img
             src="/icons/logo.png"
-            alt="Insane"
+            alt="Olympus"
             className="cursor-pointer"
             style={{
               width: isMobileOS ? "195px" : "100%",
