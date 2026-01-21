@@ -9,14 +9,23 @@ import {
 } from "react-icons/hi2";
 
 import { AreaSalesVisitors } from "@features/dashboard/AreaSalesVisitors";
+import { DashboardSalesTable } from "@features/dashboard/DashboardSalesTable";
 import { formatNumberToReal } from "@/lib/format";
 import { FaMoneyBillWave } from "react-icons/fa";
 import { useDashboardMetrics } from "@/hooks/useDashboardMetrics";
+import { useSales } from "@/hooks/useSales";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export function DashboardPage() {
   const { user } = useAuth();
   const { metrics, isLoading: isLoadingMetrics } = useDashboardMetrics();
+  
+  // Buscar últimas vendas (limitado a 10 itens)
+  const { data: salesData, isLoading: isLoadingSales } = useSales({
+    page: 1,
+    pageSize: 10,
+    dateRange: "ALL",
+  });
 
   return (
     <PageContainer title="Resumo" className="py-4">
@@ -146,6 +155,12 @@ export function DashboardPage() {
       <Card className="w-full h-[450px] mt-4">
         <AreaSalesVisitors className="w-full h-full" />
       </Card>
+
+      {/* Tabela de vendas */}
+      <DashboardSalesTable
+        payments={salesData?.payments || []}
+        loading={isLoadingSales}
+      />
     </PageContainer>
   );
 }
