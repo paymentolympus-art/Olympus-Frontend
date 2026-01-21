@@ -13,12 +13,10 @@ import { formatNumberToReal } from "@/lib/format";
 import { FaMoneyBillWave } from "react-icons/fa";
 import { useDashboardMetrics } from "@/hooks/useDashboardMetrics";
 import { Skeleton } from "@/components/ui/skeleton";
-import { useUserAwards } from "@/hooks/useUserAwards";
 
 export function DashboardPage() {
   const { user } = useAuth();
   const { metrics, isLoading: isLoadingMetrics } = useDashboardMetrics();
-  const { awardsData, isLoading: isLoadingAwards } = useUserAwards();
 
   return (
     <PageContainer title="Resumo" className="py-4">
@@ -145,44 +143,9 @@ export function DashboardPage() {
       </div>
 
       {/* Card com gráfico */}
-      <aside className="flex flex-col sm:flex-row w-full gap-4 sm:h-[450px]">
-        <Card className="flex-2/3 w-full h-full">
-          <AreaSalesVisitors className="w-full h-full" />
-        </Card>
-        <Card className="flex-1/3 h-full">
-          <div className="flex flex-col gap-4">
-            <header className="flex flex-col justify-center items-center">
-              <span className="text-sm text-description font-semibold">
-                Sua próxima premiação {user?.name.split(" ")[0]}
-              </span>
-              {isLoadingAwards ? (
-                <Skeleton className="h-7 w-32 mt-1" />
-              ) : (
-                <p className="text-xl text-white font-bold">
-                  {awardsData?.nextAward?.title ?? "Nenhuma premiação"}
-                </p>
-              )}
-            </header>
-            <div className="flex flex-row justify-center items-center">
-              {isLoadingAwards ? (
-                <Skeleton className="h-[300px] w-[200px] rounded-sm" />
-              ) : awardsData?.nextAward?.image ? (
-                <img
-                  src={awardsData.nextAward.image}
-                  alt={awardsData.nextAward.title}
-                  className="h-[300px] rounded-sm object-cover"
-                />
-              ) : (
-                <div className="h-[300px] w-[200px] flex items-center justify-center bg-tertiary rounded-sm">
-                  <p className="text-description text-sm text-center px-4">
-                    Sem imagem disponível
-                  </p>
-                </div>
-              )}
-            </div>
-          </div>
-        </Card>
-      </aside>
+      <Card className="w-full h-[450px] mt-4">
+        <AreaSalesVisitors className="w-full h-full" />
+      </Card>
     </PageContainer>
   );
 }
