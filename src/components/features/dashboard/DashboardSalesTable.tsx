@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
-import { formatDate, formatNumberToReal } from "@/lib/format";
+import { formatNumberToReal } from "@/lib/format";
 import type { Payment, SaleStatus } from "@/types/sale";
 import { Skeleton } from "@/components/ui/skeleton";
 
@@ -76,6 +76,17 @@ export function DashboardSalesTable({
   // Formatar ID para exibição (primeiros 8 caracteres)
   const formatId = (id: string) => {
     return id.slice(0, 8) + "...";
+  };
+
+  // Formatar data com hora (formato: YY/MM/DD, HH:MM)
+  const formatDateWithTime = (date: string | Date) => {
+    const d = new Date(date);
+    const year = d.getFullYear().toString().slice(-2);
+    const month = String(d.getMonth() + 1).padStart(2, "0");
+    const day = String(d.getDate()).padStart(2, "0");
+    const hours = String(d.getHours()).padStart(2, "0");
+    const minutes = String(d.getMinutes()).padStart(2, "0");
+    return `${year}/${month}/${day}, ${hours}:${minutes}`;
   };
 
   return (
@@ -176,7 +187,7 @@ export function DashboardSalesTable({
                       </Badge>
                     </TableCell>
                     <TableCell className="text-muted-foreground text-sm">
-                      {formatDate(payment.createdAt)}
+                      {formatDateWithTime(payment.createdAt)}
                     </TableCell>
                   </TableRow>
                 );
