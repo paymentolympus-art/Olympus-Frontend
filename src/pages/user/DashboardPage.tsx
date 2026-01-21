@@ -39,12 +39,14 @@ export function DashboardPage() {
         </p>
       </div>
       {/* Banner com propaganda */}
-      <Card className="w-full p-0">
-        <img
-          src="/icons/banner.png"
-          alt="Dashboard"
-          className="w-full h-[150px] sm:h-[250px] rounded-lg object-cover"
-        />
+      <Card className="w-full p-2 sm:p-4">
+        <div className="w-full flex items-center justify-center bg-gradient-to-b from-gray-900 to-gray-950 rounded-lg overflow-hidden">
+          <img
+            src="/icons/banner.png"
+            alt="Dashboard"
+            className="w-full h-auto max-h-[200px] sm:max-h-[300px] object-contain"
+          />
+        </div>
       </Card>
 
       {/* Card com informações */}
