@@ -86,13 +86,13 @@ export function NavNotification({
   const getNotificationColor = (type?: string) => {
     switch (type) {
       case "success":
-        return "border-green-500 bg-purple-950";
+        return "border-green-500 bg-yellow-950/30";
       case "warning":
-        return "border-yellow-500 bg-purple-950";
+        return "border-yellow-500 bg-yellow-950/30";
       case "error":
-        return "border-red-500 bg-purple-950";
+        return "border-red-500 bg-yellow-950/30";
       default:
-        return "border-blue-500 bg-purple-950";
+        return "border-blue-500 bg-yellow-950/30";
     }
   };
 
@@ -179,7 +179,7 @@ export function NavNotification({
                   className={cn(
                     "bg-accent border-l-4 p-3 hover:bg-accent transition-colors cursor-pointer",
                     getNotificationColor(notification.type),
-                    !notification.isRead && "bg-accent border-purple-500"
+                    !notification.isRead && "bg-accent border-yellow-500/50"
                   )}
                   onClick={() => {
                     if (!notification.isRead) {

@@ -71,7 +71,7 @@ export function NavAvatar({
         <Button variant="ghost" className="relative h-9 w-9 rounded-full p-0">
           {user?.name ? (
             <Avatar className="h-9 w-9">
-              <AvatarFallback className="bg-gradient-to-tr from-[#530462] from-50% to-[#D50491] text-accent-foreground">
+              <AvatarFallback className="bg-gradient-to-tr from-[#8B6914] from-50% to-[#D4AF37] text-accent-foreground">
                 {getInitials(user?.name || "")}
               </AvatarFallback>
             </Avatar>
@@ -103,7 +103,7 @@ export function NavAvatar({
         <div className="flex items-center gap-3 p-4 border-b border-border">
           <div className="relative">
             <Avatar className="h-10 w-10">
-              <AvatarFallback className="bg-gradient-to-tr from-[#530462] from-50% to-[#D50491] text-accent-foreground">
+              <AvatarFallback className="bg-gradient-to-tr from-[#8B6914] from-50% to-[#D4AF37] text-accent-foreground">
                 {getInitials(user?.name || "")}
               </AvatarFallback>
             </Avatar>

@@ -11,7 +11,7 @@ export function Navbar({ title }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 flex flex-row gap-2 items-center justify-between w-full px-3 py-3 border-b bg-background">
       <div className="flex flex-row gap-2 items-center justify-center">
-        <SidebarTrigger className="bg-background hover:bg-purple-600/80 border rounded-sm" />
+        <SidebarTrigger className="bg-background hover:bg-yellow-500/20 border rounded-sm" />
         <h1 className="text-lg font-bold">{title}</h1>
       </div>
       <div className="flex flex-row gap-2 items-center justify-center">

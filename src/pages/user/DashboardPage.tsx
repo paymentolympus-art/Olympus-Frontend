@@ -32,7 +32,7 @@ export function DashboardPage() {
       <div className="flex flex-col w-full pb-4">
         <p className="text-gray-300 text-sm">
           Seja bem-vindo,
-          <span className="font-bold bg-gradient-to-b from-purple-500 to-pink-500 text-transparent bg-clip-text">
+          <span className="font-bold bg-gradient-to-b from-yellow-400 to-yellow-600 text-transparent bg-clip-text">
             {" "}
             {user?.name}
           </span>
@@ -52,7 +52,7 @@ export function DashboardPage() {
       {/* Card com informações */}
       <div className="flex flex-col sm:flex-row w-full h-auto gap-4 pt-4 pb-2">
         <Card className="w-full h-full relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-purple-600 to-purple-400" />
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-yellow-500/60 to-yellow-400/60" />
           <div className="flex flex-row items-center gap-3 px-4">
             <aside className="p-2.5 bg-emerald-500/15 rounded-lg">
               <HiCheck className="w-4 h-4 text-emerald-400" />
@@ -73,7 +73,7 @@ export function DashboardPage() {
         </Card>
 
         <Card className="w-full h-full relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-purple-600 to-purple-400" />
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-yellow-500/60 to-yellow-400/60" />
           <div className="flex flex-row items-center gap-3 px-4">
             <aside className="p-2.5 bg-yellow-500/15 rounded-lg">
               <HiOutlineArrowTrendingUp className="w-4 h-4 text-yellow-500" />
@@ -92,7 +92,7 @@ export function DashboardPage() {
         </Card>
 
         <Card className="w-full h-full relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-purple-600 to-purple-400" />
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-yellow-500/60 to-yellow-400/60" />
           <div className="flex flex-row items-center gap-3 px-4">
             <aside className="p-2.5 bg-cyan-500/15 rounded-lg">
               <FaMoneyBillWave className="w-4 h-4 text-cyan-500" />
@@ -113,10 +113,10 @@ export function DashboardPage() {
         </Card>
 
         <Card className="w-full h-full relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-purple-600 to-purple-400" />
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-yellow-500/60 to-yellow-400/60" />
           <div className="flex flex-row items-center gap-3 px-4">
-            <aside className="p-2.5 bg-purple-500/15 rounded-lg">
-              <HiOutlineEye className="w-4 h-4 text-purple-300" />
+            <aside className="p-2.5 bg-yellow-500/15 rounded-lg">
+              <HiOutlineEye className="w-4 h-4 text-yellow-400" />
             </aside>
             <div className="flex flex-col flex-1">
               <p className="text-xs text-description font-semibold">
@@ -134,7 +134,7 @@ export function DashboardPage() {
         </Card>
 
         <Card className="w-full h-full relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-purple-600 to-purple-400" />
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-yellow-500/60 to-yellow-400/60" />
           <div className="flex flex-row items-center gap-3 px-4">
             <aside className="p-2.5 bg-rose-500/15 rounded-lg">
               <HiOutlineFire className="w-4 h-4 text-rose-500" />

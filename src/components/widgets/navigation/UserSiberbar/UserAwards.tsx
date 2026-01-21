@@ -42,7 +42,7 @@ export function UserAwards() {
   return (
     <Card
       className={cn(
-        "rounded-lg border-0 ring-[1px] ring-[#d50491]/10  bg-gradient-to-r from-[#530462] to-[#d50491]  hover:ring-white/90 transition-all duration-300 py-2 pl-2 pr-4 hover:cursor-pointer",
+        "rounded-lg border-0 ring-[1px] ring-[#D4AF37]/20  bg-gradient-to-r from-[#8B6914]/80 to-[#D4AF37]/80  hover:ring-yellow-400/50 transition-all duration-300 py-2 pl-2 pr-4 hover:cursor-pointer",
         !open && "hidden"
       )}
       onClick={() => navigate(ROUTES_PRIVATE.AWARDS)}
@@ -74,7 +74,7 @@ export function UserAwards() {
           {/* Barra de progresso */}
           <div className="relative w-full h-2 bg-gray-800/80 rounded-full overflow-hidden border">
             <div
-              className="absolute top-0 left-0 h-full rounded-full bg-gradient-to-r from-[#530462] to-[#d50491] transition-all duration-300"
+              className="absolute top-0 left-0 h-full rounded-full bg-gradient-to-r from-[#8B6914] to-[#D4AF37] transition-all duration-300"
               style={{ width: `${percentage}%` }}
             />
           </div>
