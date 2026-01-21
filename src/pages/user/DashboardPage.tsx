@@ -41,7 +41,7 @@ export function DashboardPage() {
       {/* Banner com propaganda */}
       <Card className="w-full p-0">
         <img
-          src="/icons/banner.jpg"
+          src="/icons/banner.png"
           alt="Dashboard"
           className="w-full h-[150px] sm:h-[250px] rounded-lg object-cover"
         />
