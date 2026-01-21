@@ -151,7 +151,7 @@ export function SecretModal({ open, onOpenChange, apiKey }: SecretModalProps) {
         <DialogFooter>
           <Button
             onClick={handleClose}
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
+            className="w-full bg-gradient-to-r from-yellow-400/80 to-yellow-500/80 hover:from-yellow-500/90 hover:to-yellow-600/90"
           >
             Entendido, guardei as chaves
           </Button>

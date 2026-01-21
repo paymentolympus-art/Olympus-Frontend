@@ -137,8 +137,8 @@ export function UtmifyEditForm({
         />
 
         {/* Informações Adicionais */}
-        <div className="p-4 bg-purple-500/10 border border-purple-500/20 rounded-lg">
-          <h4 className="font-medium text-purple-500 mb-2">
+        <div className="p-4 bg-yellow-400/10 border border-yellow-400/20 rounded-lg">
+          <h4 className="font-medium text-yellow-400 mb-2">
             Como obter o Token?
           </h4>
           <ol className="text-sm text-muted-foreground space-y-1">

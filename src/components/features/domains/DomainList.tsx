@@ -103,7 +103,7 @@ export function DomainList({
   const renderDomains = () => {
     if (error) {
       return (
-        <div className="flex items-center justify-center min-h-[400px] bg-purple-800/10">
+        <div className="flex items-center justify-center min-h-[400px] bg-yellow-400/5">
           <div className="text-center">
             <p className="text-red-500/60 font-bold mb-4">
               Erro ao carregar domínios
@@ -132,7 +132,7 @@ export function DomainList({
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="text-center py-12 bg-purple-800/10"
+          className="text-center py-12 bg-yellow-400/5"
         >
           <div className="max-w-md mx-auto">
             <Globe className="h-12 w-12 mx-auto text-gray-100 mb-4" />

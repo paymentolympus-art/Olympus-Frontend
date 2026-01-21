@@ -131,7 +131,7 @@ export function UtmifyIntegration({
                   ADICIONAR
                 </Button>
               </SheetTrigger>
-              <SheetContent className="max-w-2xl max-h-[100vh] overflow-y-auto scrollbar-thin scrollbar-thumb-purple-700 scrollbar-track-purple-300">
+              <SheetContent className="max-w-2xl max-h-[100vh] overflow-y-auto scrollbar-thin scrollbar-thumb-yellow-500 scrollbar-track-yellow-300">
                 <SheetHeader>
                   <SheetTitle>Adicionar Utmify</SheetTitle>
                   <SheetDescription>

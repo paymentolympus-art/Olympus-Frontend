@@ -47,7 +47,7 @@ const TYPE_LABELS: Record<SaleItemType, string> = {
 
 const TYPE_COLORS: Record<SaleItemType, string> = {
   PRODUCT: "bg-blue-500/10 text-blue-500",
-  ORDER_BUMP: "bg-purple-500/10 text-purple-500",
+  ORDER_BUMP: "bg-yellow-400/10 text-yellow-400",
   SHIPPING_OPTION: "bg-orange-500/10 text-orange-500",
 };
 

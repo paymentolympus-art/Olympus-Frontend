@@ -51,7 +51,7 @@ export function TabBumpsContent({ product }: TabBumpsContentProps) {
               <TabsTrigger
                 style={{ height: "10px!important" }}
                 className={cn(
-                  "w-full uppercase py-3 data-[state=active]:!bg-primary/20 !font-bold data-[state=active]:!text-purple-400 !border-t-0 !border-x-0 !border-b-0 !border-l-3 !border-transparent data-[state=active]:!border-primary transition-all duration-300",
+                  "w-full uppercase py-3 data-[state=active]:!bg-primary/20 !font-bold data-[state=active]:!text-yellow-400 !border-t-0 !border-x-0 !border-b-0 !border-l-3 !border-transparent data-[state=active]:!border-primary transition-all duration-300",
                   "rounded-[0_0_0_0]",
                   "flex justify-start gap-3 px-5"
                 )}

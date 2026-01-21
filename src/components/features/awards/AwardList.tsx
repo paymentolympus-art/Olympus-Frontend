@@ -33,7 +33,7 @@ export function AwardList() {
       {/* Lista de Premiações */}
       {isLoading && awards.length === 0 ? (
         <div className="flex w-full h-full min-h-[400px] items-center justify-center">
-          <Spinner className="size-10" color="#d50491" />
+          <Spinner className="size-10" color="#D4AF37" />
         </div>
       ) : awards.length === 0 ? (
         <div className="text-center py-12">

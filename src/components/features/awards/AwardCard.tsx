@@ -59,7 +59,7 @@ export function AwardCard({ award, index }: AwardCardProps) {
           <div className="flex flex-col items-center text-center space-y-4">
             {/* Ícone do Prêmio com efeito glow */}
             <div className="relative w-28 h-28 flex items-center justify-center">
-              <div className="absolute inset-0 bg-[#d50491]/15 rounded-full blur-2xl group-hover:bg-[#d50491]/25 transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-yellow-400/15 rounded-full blur-2xl group-hover:bg-yellow-400/25 transition-all duration-500"></div>
               <motion.img
                 src={award.icon}
                 alt={award.title}
@@ -73,7 +73,7 @@ export function AwardCard({ award, index }: AwardCardProps) {
               <h3 className="text-[15px] font-bold text-white tracking-wider leading-tight">
                 {award.title.toUpperCase()}
               </h3>
-              <p className="text-xl font-extrabold text-[#d50491] tracking-wide drop-shadow-[0_0_8px_rgba(213,4,145,0.5)]">
+              <p className="text-xl font-extrabold text-yellow-400 tracking-wide drop-shadow-[0_0_8px_rgba(212,175,55,0.5)]">
                 {minValueDisplay}
               </p>
             </div>
@@ -103,11 +103,11 @@ export function AwardCard({ award, index }: AwardCardProps) {
           stroke-linecap="round"
           stroke-linejoin="round"
           className="lucide lucide-chevron-left w-7 h-7"
-          style={{ color: "#d50491", marginLeft: "-15px" }}
+          style={{ color: "#D4AF37", marginLeft: "-15px" }}
         >
           <path d="m24 18-6-6 6-6"></path>
         </svg>
-        <hr className="w-[48px] -ml-1.5 h-1 bg-gradient-to-r from-[#d50491] to-transparent" />
+        <hr className="w-[48px] -ml-1.5 h-1 bg-gradient-to-r from-yellow-400 to-transparent" />
       </div>
 
       <div
@@ -116,7 +116,7 @@ export function AwardCard({ award, index }: AwardCardProps) {
           [1, 2].includes(award.order) ? "hidden xl:flex" : "hidden"
         )}
       >
-        <hr className="w-[48px] h-1 bg-gradient-to-r from-transparent to-[#d50491]" />
+        <hr className="w-[48px] h-1 bg-gradient-to-r from-transparent to-yellow-400" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -128,7 +128,7 @@ export function AwardCard({ award, index }: AwardCardProps) {
           stroke-linecap="round"
           stroke-linejoin="round"
           className="lucide lucide-chevron-right w-7 h-7"
-          style={{ color: "#d50491", marginLeft: "-15px" }}
+          style={{ color: "#D4AF37", marginLeft: "-15px" }}
         >
           <path d="m9 18 6-6-6-6"></path>
         </svg>

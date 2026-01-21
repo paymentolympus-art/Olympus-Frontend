@@ -177,7 +177,7 @@ export function SalesPage() {
         </div>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 gap-2">
+            <Button className="bg-gradient-to-r from-yellow-400/80 to-yellow-500/80 hover:from-yellow-500/90 hover:to-yellow-600/90 gap-2">
               <Download className="h-4 w-4" />
               Exportar
               <ChevronDown className="h-4 w-4" />

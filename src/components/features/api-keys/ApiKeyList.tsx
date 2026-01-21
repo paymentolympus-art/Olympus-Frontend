@@ -52,7 +52,7 @@ export function ApiKeyList({
         className="flex flex-col items-center justify-center py-16"
       >
         <div className="p-4 rounded-full bg-tertiary border mb-4">
-          <Key className="h-8 w-8 text-purple-400" />
+          <Key className="h-8 w-8 text-yellow-400" />
         </div>
         <h3 className="text-lg font-semibold text-white mb-2">
           Nenhuma API Key encontrada

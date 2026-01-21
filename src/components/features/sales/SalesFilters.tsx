@@ -124,7 +124,7 @@ export function SalesFilters({
                   onApplyFilters();
                   setIsOpen(false);
                 }}
-                className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
+                className="bg-gradient-to-r from-yellow-400/80 to-yellow-500/80 hover:from-yellow-500/90 hover:to-yellow-600/90"
               >
                 Aplicar
               </Button>
@@ -206,7 +206,7 @@ export function SalesFilters({
             <CollapsibleTrigger asChild className="mt-2">
               <Button
                 variant="ghost"
-                className="rounded-sm w-full justify-between bg-purple-600/10 border border-purple-500/30 text-purple-300 hover:bg-purple-600/20"
+                className="rounded-sm w-full justify-between bg-yellow-400/10 border border-yellow-400/30 text-yellow-300 hover:bg-yellow-400/20"
               >
                 <span>Parâmetros De URL</span>
                 <ChevronRight

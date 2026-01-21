@@ -86,7 +86,7 @@ export function ApiKeyPage() {
           <Button
             variant="outline"
             asChild
-            className="gap-2 border-purple-500/30 hover:bg-purple-500/10 hover:border-purple-500/50"
+            className="gap-2 border-yellow-400/30 hover:bg-yellow-400/10 hover:border-yellow-400/50"
           >
             <a
               href="https://docs.olympuspay.com.br/"
@@ -99,7 +99,7 @@ export function ApiKeyPage() {
           </Button>
           <Button
             onClick={() => setIsCreateFormOpen(true)}
-            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 gap-2"
+            className="bg-gradient-to-r from-yellow-400/80 to-yellow-500/80 hover:from-yellow-500/90 hover:to-yellow-600/90 gap-2"
           >
             <Plus className="h-4 w-4" />
             Nova API Key
@@ -108,10 +108,10 @@ export function ApiKeyPage() {
       </div>
 
       {/* Informações de Segurança */}
-      <Card className="p-4 bg-gradient-to-r from-purple-500/5 to-pink-500/5 border-purple-500/20">
+      <Card className="p-4 bg-gradient-to-r from-yellow-400/5 to-yellow-500/5 border-yellow-400/20">
         <div className="flex items-start gap-4">
-          <div className="p-2 rounded-lg bg-purple-500/10">
-            <Shield className="h-5 w-5 text-purple-400" />
+          <div className="p-2 rounded-lg bg-yellow-400/10">
+            <Shield className="h-5 w-5 text-yellow-400" />
           </div>
           <div className="flex-1">
             <h3 className="font-semibold text-white mb-1">

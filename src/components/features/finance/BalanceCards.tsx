@@ -37,18 +37,18 @@ export function BalanceCards() {
             </div>
             <button
               onClick={() => setShowAvailable(!showAvailable)}
-              className="p-3 rounded-lg bg-[#D50491]/10 hover:opacity-80 transition-opacity cursor-pointer"
+              className="p-3 rounded-lg bg-yellow-400/10 hover:opacity-80 transition-opacity cursor-pointer"
               aria-label={showAvailable ? "Ocultar valor" : "Mostrar valor"}
             >
               {showAvailable ? (
                 <HiOutlineEye
                   className="h-6 w-6"
-                  style={{ color: "#D50491" }}
+                  style={{ color: "#D4AF37" }}
                 />
               ) : (
                 <HiOutlineEyeSlash
                   className="h-6 w-6"
-                  style={{ color: "#D50491" }}
+                  style={{ color: "#D4AF37" }}
                 />
               )}
             </button>
@@ -72,18 +72,18 @@ export function BalanceCards() {
             </div>
             <button
               onClick={() => setShowPending(!showPending)}
-              className="p-3 rounded-lg bg-[#D50491]/10 hover:opacity-80 transition-opacity cursor-pointer"
+              className="p-3 rounded-lg bg-yellow-400/10 hover:opacity-80 transition-opacity cursor-pointer"
               aria-label={showPending ? "Ocultar valor" : "Mostrar valor"}
             >
               {showPending ? (
                 <HiOutlineEye
                   className="h-6 w-6"
-                  style={{ color: "#D50491" }}
+                  style={{ color: "#D4AF37" }}
                 />
               ) : (
                 <HiOutlineEyeSlash
                   className="h-6 w-6"
-                  style={{ color: "#D50491" }}
+                  style={{ color: "#D4AF37" }}
                 />
               )}
             </button>

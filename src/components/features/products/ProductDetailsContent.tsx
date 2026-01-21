@@ -61,7 +61,7 @@ export function ProductDetailsContent({ product }: ProductDetailsContentProps) {
             <TabsTrigger
               key={tab.value}
               value={tab.value}
-              className="uppercase py-2 data-[state=active]:!bg-primary/20 !font-bold data-[state=active]:!text-purple-400 rounded-none rounded-t-sm !border-t-0 !border-x-0 !border-b-3 !border-transparent data-[state=active]:!border-primary transition-all duration-300"
+              className="uppercase py-2 data-[state=active]:!bg-primary/20 !font-bold data-[state=active]:!text-yellow-400 rounded-none rounded-t-sm !border-t-0 !border-x-0 !border-b-3 !border-transparent data-[state=active]:!border-primary transition-all duration-300"
             >
               {tab.icon} {tab.label}
             </TabsTrigger>
