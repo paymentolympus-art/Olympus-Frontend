@@ -21,7 +21,6 @@ import { ProductDetailsPage } from "./pages/user/ProductDetailsPage";
 import { SalesPage } from "./pages/user/SalesPage";
 import { FinancePage } from "./pages/user/FinancePage";
 import { IntegrationsPage } from "./pages/user/IntegrationsPage";
-import { LiveViewPage } from "./pages/user/LiveViewPage";
 import { ShippingPage } from "./pages/user/ShippingPage";
 import { DomainsPage } from "./pages/user/DomainsPage";
 import { CheckoutPage } from "./pages/user/CheckoutPage";
@@ -88,7 +87,6 @@ export function Routers() {
           element={<IntegrationsPage />}
         />
         <Route path={ROUTES_PRIVATE.DOMAINS} element={<DomainsPage />} />
-        <Route path={ROUTES_PRIVATE.LIVE_VIEW} element={<LiveViewPage />} />
         <Route path={ROUTES_PRIVATE.SHIPPING} element={<ShippingPage />} />
         <Route path={ROUTES_PRIVATE.MY_ACCOUNT} element={<MyAccountPage />} />
         <Route

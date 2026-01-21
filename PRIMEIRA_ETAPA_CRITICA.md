@@ -407,3 +407,4 @@ const payment = await asaas.payments.create({
 **RESUMO**: Implemente primeiro o fluxo de criação de pedido + geração de PIX + webhook de confirmação. Isso torna o gateway funcional e permite validar o negócio rapidamente.
 
 
+

@@ -6,7 +6,6 @@ import {
   HiMiniLink,
   HiGlobeAlt,
   HiTruck,
-  HiMiniGlobeAmericas,
 } from "react-icons/hi2";
 
 export const ROUTES_LAYOUT = {
@@ -30,7 +29,6 @@ export const ROUTES_PRIVATE = {
   SHIPPING: "/user/shipping",
   INTEGRATIONS: "/user/integrations",
   DOMAINS: "/user/domains",
-  LIVE_VIEW: "/user/live-view",
   CHECKOUT: "/user/checkout",
   MY_ACCOUNT: "/user/my-account",
   CONFIGURATION: "/user/configuration",
@@ -73,10 +71,5 @@ export const routesDashboard = [
     title: "Domínios",
     url: "/user/domains",
     icon: HiGlobeAlt,
-  },
-  {
-    title: "Live View",
-    url: "/user/live-view",
-    icon: HiMiniGlobeAmericas,
   },
 ];
